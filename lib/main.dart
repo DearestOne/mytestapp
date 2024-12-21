@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: const Color.fromARGB(255, 123, 100, 85)), // cotlofasfh
         useMaterial3: true, // ejejeje
       ),
-      home: const MyHomePage(),
+      home: const MyHomePage(), // hhdufs
     ); 
   }
 }

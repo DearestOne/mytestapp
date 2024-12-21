@@ -25,6 +25,23 @@ class MyHomePage extends StatelessWidget {
             children: [ Container(
               padding: const EdgeInsets.all(30),
               color: Colors.amber,
+              child: Text("hello world",style: GoogleFonts.aladin(),),
+            ),
+            Container(
+              padding: const EdgeInsets.all(30),
+              color: Colors.amber,
+              child: const Text("hello world"),
+            ),
+            Container(
+              padding: const EdgeInsets.all(30),
+              color: Colors.amber,
+              child: const Text("hello world"),
+            )],),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            children: [ Container(
+              padding: const EdgeInsets.all(30),
+              color: Colors.amber,
               child: const Text("hello world"),
             ),
             Container(
